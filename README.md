@@ -9,21 +9,19 @@
 ```
 /
 ├── *.ipynb           # Jupyter Notebooks com as atividades
-├── data/             # Dados de treino e teste pré-processados
+├── data/             # (Removido) Dados pré-processados não incluídos no repositório
 └── analysis/         # Análise exploratória dos novos conjuntos
 ```
 
 - Os notebooks estão na raiz do repositório.
-- A pasta `data` contém os dados já pré-processados.
+- **Atenção:** A pasta `data` não está presente, pois os dados pré-processados excederam o limite de armazenamento do GitHub.
 - A pasta `analysis` contém análises exploratórias.
 
 ---
 
 ## Como Utilizar
 
-Você pode rodar apenas a parte de **modelagem e avaliação** utilizando os dados já processados.
-
-> ⚠️ **Atenção:** O processamento dos dados gera DataFrames muito grandes. Recomenda-se utilizar computação em nuvem para processar tudo. 
+> ⚠️ **Atenção:** Os dados pré-processados não foram incluídos neste repositório devido ao tamanho. Recomenda-se utilizar computação em nuvem para processar tudo e armazenar os dados localmente.
 
 ---
 
